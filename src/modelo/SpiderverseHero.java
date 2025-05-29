@@ -1,3 +1,5 @@
+package modelo;
+
 public class SpiderverseHero {
     private int codigo;
     private String nombre;
@@ -5,7 +7,6 @@ public class SpiderverseHero {
     private String universo;
     private int nivelExperiencia;
 
-    // Constructor
     public SpiderverseHero(int codigo, String nombre, String poderEspecial, String universo, int nivelExperiencia) {
         this.codigo = codigo;
         this.nombre = nombre;

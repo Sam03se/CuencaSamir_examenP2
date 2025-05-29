@@ -1,6 +1,10 @@
+package estructura;
+
+import modelo.SpiderverseHero;
+
 public class Nodo {
-    SpiderverseHero dato;
-    Nodo siguiente;
+    private SpiderverseHero dato;
+    private Nodo siguiente;
 
     public Nodo(SpiderverseHero dato) {
         this.dato = dato;
@@ -9,6 +13,10 @@ public class Nodo {
 
     public SpiderverseHero getDato() {
         return dato;
+    }
+
+    public void setDato(SpiderverseHero dato) {
+        this.dato = dato;
     }
 
     public Nodo getSiguiente() {
