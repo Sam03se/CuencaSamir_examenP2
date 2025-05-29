@@ -1,7 +1,11 @@
 import interfaz.web;
+import javax.swing.SwingUtilities;
+
 
 public class Main {
     public static void main(String[] args) {
-        new web().setVisible(true);
+        SwingUtilities.invokeLater(() -> {
+            new web().setVisible(true);
+        });
     }
 }
