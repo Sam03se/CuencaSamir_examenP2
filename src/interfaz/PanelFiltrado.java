@@ -8,6 +8,7 @@ public class PanelFiltrado extends JPanel {
     public JButton btnFiltrar;
     public JButton btnFiltrarRecursivo;
     public JTable tablaFiltrado;
+    private JPanel panelFiltrado;
 
     public PanelFiltrado() {
         setLayout(null);

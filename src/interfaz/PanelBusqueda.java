@@ -6,6 +6,10 @@ public class PanelBusqueda extends JPanel {
     public JTextField txtBuscarCodigo;
     public JButton btnBuscar;
     public JTextField txtResultadoNombre;
+    private JTextField txtResultadoPoder;
+    private JTextField txtResultadoUniverso;
+    private JTextField txtResultadoNivel;
+    private JPanel panelBusqueda;
 
     public PanelBusqueda() {
         setLayout(null);

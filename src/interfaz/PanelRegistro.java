@@ -11,6 +11,7 @@ public class PanelRegistro extends JPanel {
     public JComboBox<Integer> comboNivel;
     public JButton btnAgregar;
     public JTable tablaRegistro;
+    private JPanel panelRegistro;
 
     public PanelRegistro() {
         setLayout(null); // Puedes usar otro layout si prefieres
